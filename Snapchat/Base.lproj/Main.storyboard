@@ -53,6 +53,9 @@
                                 <rect key="frame" x="106" y="256" width="162" height="38"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Switch to Sign Up"/>
+                                <connections>
+                                    <action selector="signUpTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MUe-78-Soa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -75,8 +78,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="bottomButton" destination="fgc-cr-obD" id="PCg-WU-xh3"/>
                         <outlet property="emailTextField" destination="Gfv-4w-vt4" id="Mx6-Du-vum"/>
                         <outlet property="passwordTextField" destination="PMj-RO-GfY" id="i9z-ue-mfl"/>
+                        <outlet property="topButton" destination="icv-7u-vwG" id="WKx-pL-XiV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
