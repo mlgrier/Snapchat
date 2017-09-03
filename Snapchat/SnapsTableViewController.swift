@@ -22,6 +22,8 @@ class SnapsTableViewController: UITableViewController {
 
     
     @IBAction func logoutTapped(_ sender: Any) {
+        //code to logout 
+        dismiss(animated: true, completion: nil)
     }
     
     // MARK: - Table view data source
