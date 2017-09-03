@@ -82,7 +82,7 @@
                         <outlet property="emailTextField" destination="Gfv-4w-vt4" id="Mx6-Du-vum"/>
                         <outlet property="passwordTextField" destination="PMj-RO-GfY" id="i9z-ue-mfl"/>
                         <outlet property="topButton" destination="icv-7u-vwG" id="WKx-pL-XiV"/>
-                        <segue destination="eUO-ze-DNs" kind="presentation" id="N2K-hS-OzQ"/>
+                        <segue destination="eUO-ze-DNs" kind="presentation" identifier="authToSnaps" id="N2K-hS-OzQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -113,7 +113,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Snaps" id="FOe-n0-hdy">
-                        <barButtonItem key="leftBarButtonItem" title="Logout" id="sYq-T4-7fh"/>
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="sYq-T4-7fh">
+                            <connections>
+                                <action selector="logoutTapped:" destination="zIn-Hl-OuX" id="Mg1-x5-Vht"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="1UH-1Z-Xar"/>
                     </navigationItem>
                 </tableViewController>

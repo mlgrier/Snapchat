@@ -37,6 +37,7 @@ class AuthViewController: UIViewController {
                             print(error)
                         } else {
                             print("Login Successful!")
+                            performSegue(withIdentifier: "authToSnaps", sender: nil)
                         }
                     })
                 } else {
@@ -46,6 +47,7 @@ class AuthViewController: UIViewController {
                             print(error)
                         } else {
                             print("Sign Up Successful!")
+                            performSegue(withIdentifier: "authToSnaps", sender: nil)
                         }
                     })
                 }
