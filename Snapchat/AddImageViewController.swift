@@ -53,6 +53,7 @@ class AddImageViewController: UIViewController, UIImagePickerControllerDelegate,
                         print(error)
                     } else {
                         print("Upload Complete")
+                        self.performSegue(withIdentifier: "addImageToSelectUser", sender: nil)
                     }
                 })
             }
