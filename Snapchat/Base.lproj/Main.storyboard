@@ -191,7 +191,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="descriptionText" destination="c3r-W1-xUw" id="j2J-eG-gJo"/>
-                        <outlet property="image" destination="aQi-zN-FRM" id="amj-tx-EDj"/>
+                        <outlet property="imageView" destination="aQi-zN-FRM" id="mcq-EK-rOL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Fg-Kz-9Hi" userLabel="First Responder" sceneMemberID="firstResponder"/>
